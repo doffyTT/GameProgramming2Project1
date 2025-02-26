@@ -1020,9 +1020,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1286755179}
   - component: {fileID: 1286755178}
-  - component: {fileID: 1286755182}
   - component: {fileID: 1286755181}
   - component: {fileID: 1286755180}
+  - component: {fileID: 1286755182}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -1115,7 +1115,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1182,12 +1182,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1286755177}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fcded5f1c026b14bbc570ad9484ce7a, type: 3}
+  m_Script: {fileID: 11500000, guid: 7cf2e6376bdb65b42bc283ec100e556a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NPCname: Joe
-  health: 0
-  speed: 5
+  speed: 1
+  hasKey: 0
+  upSprite: {fileID: 0}
+  leftSprite: {fileID: 0}
+  rightSprite: {fileID: 0}
+  frontSprite: {fileID: 0}
 --- !u!1 &1486712433
 GameObject:
   m_ObjectHideFlags: 0
